@@ -80,5 +80,5 @@ class Trace:
         num = _cffi.lib.seis_trace_get_samples_num(self.__ptr)
         samp = _cffi.lib.seis_trace_get_samples(self.__ptr)
         samp = _cffi.ffi.cast("double *", samp)
-        #  return frombuffer(_cffi.ffi.buffer(samp, num*_cffi.ffi.sizeof("double")))
-        return Samples(samp, num)
+        return frombuffer(_cffi.ffi.buffer(samp, num*_cffi.ffi.sizeof("double")))
+        #  return Samples(samp, num)

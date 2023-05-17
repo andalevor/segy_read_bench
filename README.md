@@ -8,6 +8,6 @@ I ran 10 times
 | c        |  2.1 |
 | c++      |  2.3 |
 | pybind11 |  9.4 |
-| cffi     | 18.2 |
-| ctypes   | 19.7 |
+| cffi     | 15.6 |
+| ctypes   | 15.7 |
 | cython   | 59.5 |

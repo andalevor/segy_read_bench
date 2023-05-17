@@ -125,5 +125,5 @@ class Trace:
         num = self.__seis_trace_get_samples_num(self.__pimpl)
         samp = self.__seis_trace_get_samples(self.__pimpl)
         samp = cast(samp, POINTER(c_double))
-        #  return as_array(samp, (num,))
-        return Samples(samp, num)
+        return as_array(samp, (num,))
+        #  return Samples(samp, num)
