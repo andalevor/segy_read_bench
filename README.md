@@ -11,4 +11,5 @@ I ran 10 times
 | pybind11 |  9.4 |
 | cffi     | 15.6 |
 | ctypes   | 15.7 |
+| segyio   | 17.1 |
 | cython   | 59.5 |
